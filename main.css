@@ -1,0 +1,91 @@
+body {
+  height: 100vh;
+  background-color: black;
+
+  /* 이미지를 넣었을 경우
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; */
+}
+.container {
+  padding : 50px 0px;
+}
+
+.container .logo {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.container .logo img {
+  width: 100%;
+}
+
+.container .films {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: black;
+  max-width: 1000px;
+  margin: auto;
+  padding : 40px 20px
+}
+
+.container .films .film {
+  width : 200px;
+  height: 300px;
+  margin: 4px;
+  border: 5px solid #000;
+  box-sizing: border-box;
+  background-color: #000;
+  overflow: hidden;
+  /* transform: skewX(-14deg);
+  transition: 
+    transform .1s,
+    background-color .6s; */
+}
+
+.container .films .film:hover {
+  border-color: #E50914;
+  transition: 
+    transform .1s,
+    border-color .6s;
+  transform: scale(1.3);
+  z-index: 1;
+}
+
+.container .films .film .image {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 200px;
+  /* transform: skewX(14deg) translate(-16px); */
+}
+
+.container .films .film:nth-child(1) .image { background-image: url("https://raw.githubusercontent.com/reemrev21/netflix-original-selector-vanilla/main/images/polar.jpg"); }
+.container .films .film:nth-child(2) .image { background-image: url("https://raw.githubusercontent.com/reemrev21/netflix-original-selector-vanilla/main/images/kingdom.jpg"); }
+.container .films .film:nth-child(3) .image { background-image: url("https://raw.githubusercontent.com/reemrev21/netflix-original-selector-vanilla/main/images/you.jpg"); }
+.container .films .film:nth-child(4) .image { background-image: url("https://raw.githubusercontent.com/reemrev21/netflix-original-selector-vanilla/main/images/narcors.jpg"); }
+.container .films .film:nth-child(5) .image { background-image: url("https://raw.githubusercontent.com/reemrev21/netflix-original-selector-vanilla/main/images/riverdale.jpg"); }
+.container .films .film:nth-child(6) .image { background-image: url("https://raw.githubusercontent.com/reemrev21/netflix-original-selector-vanilla/main/images/russiandoll.jpg"); }
+.container .films .film:nth-child(7) .image { background-image: url("https://raw.githubusercontent.com/reemrev21/netflix-original-selector-vanilla/main/images/sweethome.jpg"); }
+.container .films .film:nth-child(8) .image { background-image: url("https://raw.githubusercontent.com/reemrev21/netflix-original-selector-vanilla/main/images/strange.jpg"); }
+.container .films .film:nth-child(9) .image { background-image: url("https://raw.githubusercontent.com/reemrev21/netflix-original-selector-vanilla/main/images/orangeisthenew.jpg"); }
+.container .films .film:nth-child(10) .image { background-image: url("https://raw.githubusercontent.com/reemrev21/netflix-original-selector-vanilla/main/images/theendofthe.png"); }
+.container .films .film:nth-child(11) .image { background-image: url("https://raw.githubusercontent.com/reemrev21/netflix-original-selector-vanilla/main/images/okja.jpg"); }
+.container .films .film:nth-child(12) .image { background-image: url("https://raw.githubusercontent.com/reemrev21/netflix-original-selector-vanilla/main/images/seungri.jpg"); }
+.container .films .film:nth-child(13) .image { background-image: url("https://raw.githubusercontent.com/reemrev21/netflix-original-selector-vanilla/main/images/oldguard.jpg"); }
+.container .films .film:nth-child(14) .image { background-image: url("https://raw.githubusercontent.com/reemrev21/netflix-original-selector-vanilla/main/images/irishman.jpg"); }
+.container .films .film:nth-child(15) .image { background-image: url("https://raw.githubusercontent.com/reemrev21/netflix-original-selector-vanilla/main/images/Roma.jpg"); }
+.container .films .film:nth-child(16) .image { background-image: url("https://raw.githubusercontent.com/reemrev21/netflix-original-selector-vanilla/main/images/beomin.jpg"); }
+.container .films .film:nth-child(17) .image { background-image: url("https://raw.githubusercontent.com/reemrev21/netflix-original-selector-vanilla/main/images/klaus.jpg"); }
+.container .films .film:nth-child(18) .image { background-image: url("https://raw.githubusercontent.com/reemrev21/netflix-original-selector-vanilla/main/images/alwaysbemymaybe.jfif"); }
+.container .films .film:nth-child(19) .image { background-image: url("https://raw.githubusercontent.com/reemrev21/netflix-original-selector-vanilla/main/images/lady gaga.jpg"); }
+.container .films .film:nth-child(20) .image { background-image: url("https://raw.githubusercontent.com/reemrev21/netflix-original-selector-vanilla/main/images/pretenditsokay.jpg"); }
+.container .films .film:nth-child(21) .image { background-image: url("https://raw.githubusercontent.com/reemrev21/netflix-original-selector-vanilla/main/images/to all.jpg"); }
+.container .films .film:nth-child(22) .image { background-image: url("https://raw.githubusercontent.com/reemrev21/netflix-original-selector-vanilla/main/images/an.jpg"); }
+.container .films .film:nth-child(23) .image { background-image: url("https://raw.githubusercontent.com/reemrev21/netflix-original-selector-vanilla/main/images/emilyinparis.jfif"); }
+.container .films .film:nth-child(24) .image { background-image: url("https://raw.githubusercontent.com/reemrev21/netflix-original-selector-vanilla/main/images/halfofit.jpg"); }
+
+
